@@ -12,7 +12,7 @@ import {
 
 require("./index.scss");
 
-const host = "http://itemsapi.com:5000/api/v1/items/npmjs/"
+const host = "http://cloud.itemsapi.com/api/v1/items/npmjs/"
 const searchkit = new SearchkitManager(host)
 
 const NpmItem = (props)=> {
